@@ -26,7 +26,7 @@ export default function RsvpSection() {
                   <p className="text-sm uppercase tracking-[0.2em] text-[#a07f67]">
                     Data
                   </p>
-                  <p className="mt-2 text-lg">26 de junho de 2026</p>
+                  <p className="mt-2 text-lg">20 de junho de 2026</p>
                 </div>
 
                 <div>

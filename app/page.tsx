@@ -38,7 +38,7 @@ export default function Home() {
         </p>
 
         <p className="mx-auto mt-6 max-w-2xl leading-8 text-[#6b615a]">
-          Obrigado por fazer partilhar desse momento tão especial conosco!
+          Obrigado por estar conosco nesse momento tão especial!
         </p>
 
         <div className="mt-8 flex items-center justify-center gap-3 text-[#b4947c]">

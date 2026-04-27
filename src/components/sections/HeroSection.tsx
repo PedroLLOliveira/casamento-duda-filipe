@@ -35,7 +35,7 @@ export default function HeroSection() {
             </p>
 
             <div className="mt-10 space-y-2 text-sm md:text-lg">
-              <p><strong>15 de novembro de 2026</strong></p>
+              <p><strong>20 de junho de 2026</strong></p>
               <p>16h • Muriaé - MG</p>
             </div>
 

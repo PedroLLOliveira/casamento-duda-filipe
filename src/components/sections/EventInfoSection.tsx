@@ -12,7 +12,7 @@ export default function EventInfoSection() {
           <div className="mt-6 space-y-5 leading-7 text-[#5f5650]">
             <p>
               <strong>Data:</strong><br />
-              26 de junho de 2026
+              20 de junho de 2026
             </p>
 
             <p>
