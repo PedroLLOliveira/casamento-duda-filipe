@@ -34,12 +34,11 @@ export default function Home() {
         </h3>
 
         <p className="mt-4 text-[#6b615a]">
-          15 de novembro de 2026 • Muriaé - MG
+          20 de Junho de 2026 • Muriaé - MG
         </p>
 
         <p className="mx-auto mt-6 max-w-2xl leading-8 text-[#6b615a]">
-          Obrigado por fazer parte da nossa história e por celebrar conosco este
-          novo capítulo cheio de amor, esperança e felicidade.
+          Obrigado por fazer partilhar desse momento tão especial conosco!
         </p>
 
         <div className="mt-8 flex items-center justify-center gap-3 text-[#b4947c]">
