@@ -31,11 +31,11 @@ export const giftCategories: GiftCategoryWindow[] = [
     value: 120,
     paymentLink: "https://mpago.la/2khaU3N",
     items: [
-      { id: "120-1", name: "Jogo de taças de cristal", image: "/images/presents/tacas-cristal.jpg" },
-      { id: "120-2", name: "Aspirador de pó vertical 2 em 1", image: "/images/presents/aspirador-vertical-2em1.jpg" },
-      { id: "120-3", name: "Cobre-leito colcha casal queen 3 peças", image: "/images/presents/cobre-leito-queen-3pecas.jpg" },
-      { id: "120-4", name: "Ventilador de mesa 30cm", image: "/images/presents/ventilador-mesa-30cm.jpg" },
-      { id: "120-5", name: "Sanduicheira grill 2 em 1 antiaderente", image: "/images/presents/sanduicheira-grill-2em1.jpg" },
+      { id: "120-1", name: "Jogo de taças de cristal", image: "/images/presents/jogo-tacas-de-cristal.webp" },
+      { id: "120-2", name: "Aspirador de pó vertical 2 em 1", image: "/images/presents/aspirador-vertical-2em1.webp" },
+      { id: "120-3", name: "Cobre-leito colcha casal queen 3 peças", image: "/images/presents/cobre-leito-queen-3pecas.webp" },
+      { id: "120-4", name: "Ventilador de mesa 30cm", image: "/images/presents/ventilador-mesa-30cm.webp" },
+      { id: "120-5", name: "Sanduicheira grill 2 em 1 antiaderente", image: "/images/presents/sanduicheira-grill-2em1.webp" },
     ],
   },
   {
@@ -44,10 +44,10 @@ export const giftCategories: GiftCategoryWindow[] = [
     value: 160,
     paymentLink: "https://mpago.la/2PmPpGR",
     items: [
-      { id: "160-1", name: "Liquidificador 1000W", image: "/images/presents/liquidificador-1000w.jpg" },
-      { id: "160-2", name: "Aparelho de jantar chá 20 peças cerâmica", image: "/images/presents/aparelho-jantar-cha-20.jpg" },
-      { id: "160-3", name: "Faqueiro Tramontina inox 30 peças", image: "/images/presents/faqueiro-inox-30pcs.jpg" },
-      { id: "160-4", name: "Ferro de passar roupa vapor antiaderente elétrico", image: "/images/presents/ferro-passar-vapor.jpg" },
+      { id: "160-1", name: "Liquidificador 1000W", image: "/images/presents/liquidificador-1000w.webp" },
+      { id: "160-2", name: "Aparelho de jantar chá 20 peças cerâmica", image: "/images/presents/aparelho-jantar-cha-20.webp" },
+      { id: "160-3", name: "Faqueiro Tramontina inox 30 peças", image: "/images/presents/faqueiro-inox-30pcs.webp" },
+      { id: "160-4", name: "Ferro de passar roupa vapor antiaderente elétrico", image: "/images/presents/ferro-passar-vapor.webp" },
     ],
   },
   {
@@ -56,10 +56,10 @@ export const giftCategories: GiftCategoryWindow[] = [
     value: 200,
     paymentLink: "https://mpago.la/238wvpH",
     items: [
-      { id: "200-1", name: "Aparelho de jantar 20 peças margaridas cerâmica", image: "/images/presents/aparelho-jantar-margaridas-20.jpg" },
-      { id: "200-2", name: "Batedeira 4L 500W mixer turbo", image: "/images/presents/batedeira-4l-500w.jpg" },
-      { id: "200-3", name: "Mixer 3 em 1 inox 800W", image: "/images/presents/mixer-3em1-800w.jpg" },
-      { id: "200-4", name: "Panela elétrica de arroz 6 xícaras", image: "/images/presents/panela-arroz-6-xicaras.jpg" },
+      { id: "200-1", name: "Aparelho de jantar 20 peças margaridas cerâmica", image: "/images/presents/aparelho-jantar-margaridas-20.webp" },
+      { id: "200-2", name: "Batedeira 4L 500W mixer turbo", image: "/images/presents/batedeira-4l-500w.webp" },
+      { id: "200-3", name: "Mixer 3 em 1 inox 800W", image: "/images/presents/mixer-3em1-800w.webp" },
+      { id: "200-4", name: "Panela elétrica de arroz 6 xícaras", image: "/images/presents/panela-arroz-6-xicaras.webp" },
     ],
   },
   {
@@ -68,8 +68,8 @@ export const giftCategories: GiftCategoryWindow[] = [
     value: 300,
     paymentLink: "https://mpago.la/116nFdK",
     items: [
-      { id: "300-1", name: "Jogo de panelas 5 peças", image: "/images/presents/jogo-panelas-5pcs.jpg" },
-      { id: "300-2", name: "Aparelho de jantar", image: "/images/presents/aparelho-jantar.jpg" },
+      { id: "300-1", name: "Jogo de panelas 5 peças", image: "/images/presents/jogo-panelas-5pcs.webp" },
+      { id: "300-2", name: "Aparelho de jantar", image: "/images/presents/aparelho-jantar.webp" },
     ],
   },
   {
@@ -78,12 +78,12 @@ export const giftCategories: GiftCategoryWindow[] = [
     value: 500,
     paymentLink: "https://mpago.la/1PAbYvs",
     items: [
-      { id: "500-1", name: "Microondas", image: "/images/presents/microondas.jpg" },
-      { id: "500-2", name: "Air fryer", image: "/images/presents/air-fryer.jpg" },
-      { id: "500-3", name: "Rack de sala", image: "/images/presents/rack-sala.jpg" },
-      { id: "500-4", name: "Forno elétrico 52L", image: "/images/presents/forno-eletrico-52l.jpg" },
-      { id: "500-5", name: "Cômoda 6 gavetas", image: "/images/presents/comoda-6-gavetas.jpg" },
-      { id: "500-6", name: "Aparelho de jantar 30 peças Oxford cerâmica", image: "/images/presents/aparelho-jantar-30pcs-oxford.jpg" },
+      { id: "500-1", name: "Microondas", image: "/images/presents/microondas.webp" },
+      { id: "500-2", name: "Air fryer", image: "/images/presents/air-fryer.webp" },
+      { id: "500-3", name: "Rack de sala", image: "/images/presents/rack-sala.webp" },
+      { id: "500-4", name: "Forno elétrico 52L", image: "/images/presents/forno-eletrico-52l.webp" },
+      { id: "500-5", name: "Cômoda 6 gavetas", image: "/images/presents/comoda-6-gavetas.webp" },
+      { id: "500-6", name: "Aparelho de jantar 30 peças Oxford cerâmica", image: "/images/presents/aparelho-jantar-30pcs-oxford.webp" },
     ],
   },
 ];

@@ -14,7 +14,7 @@ export default function RsvpForm() {
   const [form, setForm] = useState({
     name: "",
     phone: "",
-    guestsCount: "",
+    hasCompanions: false,
     guestNames: "",
     dietaryRestriction: "",
     message: "",
@@ -23,7 +23,7 @@ export default function RsvpForm() {
   const [loading, setLoading] = useState(false);
   const [feedback, setFeedback] = useState("");
 
-  function updateField(field: string, value: string | number) {
+  function updateField(field: string, value: string | boolean) {
     setForm((prev) => ({ ...prev, [field]: value }));
   }
 
@@ -44,8 +44,8 @@ export default function RsvpForm() {
       return;
     }
 
-    if (Number(form.guestsCount || 0) < 0) {
-      setFeedback("A quantidade de acompanhantes não pode ser negativa.");
+    if (form.hasCompanions && !form.guestNames.trim()) {
+      setFeedback("Informe o nome dos acompanhantes.");
       setLoading(false);
       return;
     }
@@ -57,8 +57,12 @@ export default function RsvpForm() {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          ...form,
-          guestsCount: Number(form.guestsCount || 0),
+          name: form.name,
+          phone: form.phone,
+          guestsCount: form.hasCompanions ? 1 : 0,
+          guestNames: form.hasCompanions ? form.guestNames : "",
+          dietaryRestriction: form.dietaryRestriction,
+          message: form.message,
         }),
       });
 
@@ -72,7 +76,7 @@ export default function RsvpForm() {
       setForm({
         name: "",
         phone: "",
-        guestsCount: "",
+        hasCompanions: false,
         guestNames: "",
         dietaryRestriction: "",
         message: "",
@@ -116,32 +120,40 @@ export default function RsvpForm() {
         />
       </div>
 
-      <div>
-        <label className={labelClass}>Quantidade de acompanhantes</label>
-        <input
-          type="text"
-          inputMode="numeric"
-          pattern="[0-9]*"
-          value={String(form.guestsCount)}
-          onChange={(e) => {
-            const onlyNumbers = e.target.value.replace(/\D/g, "");
-            updateField("guestsCount", onlyNumbers === "" ? 0 : Number(onlyNumbers));
-          }}
-          className={inputClass}
-          placeholder="0"
-        />
+      <div className="pt-1">
+        <label className="flex cursor-pointer items-center gap-3">
+          <input
+            type="checkbox"
+            checked={form.hasCompanions}
+            onChange={(e) => {
+              const checked = e.target.checked;
+              setForm((prev) => ({
+                ...prev,
+                hasCompanions: checked,
+                guestNames: checked ? prev.guestNames : "",
+              }));
+            }}
+            className="h-5 w-5 rounded border-[#d6c7ba] text-[#8c6f5a] focus:ring-[#ead9cc]"
+          />
+
+          <span className="text-sm uppercase tracking-[0.18em] text-[#8c6f5a]">
+            Levarei acompanhantes
+          </span>
+        </label>
       </div>
 
-      <div>
-        <label className={labelClass}>Nome dos acompanhantes</label>
-        <textarea
-          value={form.guestNames}
-          onChange={(e) => updateField("guestNames", e.target.value)}
-          className={inputClass}
-          placeholder="Informe os nomes, se houver"
-          rows={3}
-        />
-      </div>
+      {form.hasCompanions && (
+        <div>
+          <label className={labelClass}>Nome dos acompanhantes</label>
+          <textarea
+            value={form.guestNames}
+            onChange={(e) => updateField("guestNames", e.target.value)}
+            className={inputClass}
+            placeholder="Informe o nome dos acompanhantes"
+            rows={3}
+          />
+        </div>
+      )}
 
       <div>
         <label className={labelClass}>Restrição alimentar</label>

@@ -7,7 +7,7 @@ export default function HeroSection() {
     <section id="topo" className="relative min-h-screen overflow-hidden">
       <div
         className="absolute inset-0 scale-[1.04] bg-cover bg-center"
-        style={{ backgroundImage: "url('/images/casal/hero.jpeg')" }}
+        style={{ backgroundImage: "url('/images/casal/hero-banner.jpeg')" }}
       />
 
       <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/25 to-[#2d2622]/80" />

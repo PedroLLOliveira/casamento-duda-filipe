@@ -20,7 +20,7 @@ export default function Home() {
       <StorySection />
       <SectionDivider />
       <GallerySection />
-      <SectionDivider />
+      {/* <SectionDivider /> */}
       <GiftListSection />
       <RsvpSection />
 
