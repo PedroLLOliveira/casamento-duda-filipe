@@ -5,11 +5,17 @@ import Ornament from "@/components/ui/Ornament";
 export default function HeroSection() {
   return (
     <section id="topo" className="relative min-h-screen overflow-hidden">
-      <div
-        className="absolute inset-0 scale-[1.04] bg-cover bg-center"
-        style={{ backgroundImage: "url('/images/casal/hero-banner.jpeg')" }}
-      />
+      <div className="absolute inset-0">
+        <div
+          className="absolute inset-0 scale-[1.04] bg-cover bg-center md:hidden"
+          style={{ backgroundImage: "url('/images/casal/F7400244.jpg')" }}
+        />
 
+        <div
+          className="absolute inset-0 scale-[1.04] bg-cover bg-center hidden md:block"
+          style={{ backgroundImage: "url('/images/casal/hero-banner.jpeg')" }}
+        />
+      </div>
       <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/25 to-[#2d2622]/80" />
 
       <div className="pointer-events-none absolute left-[-120px] top-16 h-72 w-72 rounded-full bg-[#ead9ca]/20 blur-3xl" />
