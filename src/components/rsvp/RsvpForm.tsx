@@ -155,7 +155,7 @@ export default function RsvpForm() {
         </div>
       )}
 
-      <div>
+      {/* <div>
         <label className={labelClass}>Restrição alimentar</label>
         <textarea
           value={form.dietaryRestriction}
@@ -164,7 +164,7 @@ export default function RsvpForm() {
           placeholder="Nos conte se houver alguma restrição"
           rows={3}
         />
-      </div>
+      </div> */}
 
       <div>
         <label className={labelClass}>Mensagem para os noivos</label>

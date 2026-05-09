@@ -19,14 +19,14 @@ export default function CoupleMessageSection() {
           </h2>
 
           <p className="mx-auto mt-8 max-w-3xl text-lg leading-9 text-[#6b615a]">
-            Obrigado por fazer parte! Você que hoje recebe esse convite, o faz porque, de alguma forma, 
-            tem um lugar especial em nossas vidas. Seja por laços de sangue, por laços de amizade ou por laços de fé, 
-            você é importante para nós e queremos celebrar esse momento ao seu lado.
+            Obrigado por fazer parte da nossa história! Se você recebe este convite hoje, é porque ocupa um lugar muito especial 
+            em nossas vidas. Seja por laços de sangue, de amizade ou de fé, você é importante para nós, e queremos muito celebrar 
+            este grande momento ao seu lado.
           </p>
 
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-9 text-[#6b615a]">
-            Nesse site, você encontrará as informações que precisa para chegar ao local da cerimônia, a data e o horário, 
-            também poderá confirmar a sua presença, e nos presentear conforme sentir em seu coração.
+            Neste site, você encontrará as informações necessárias sobre a data, o horário e a localização da cerimônia. Você também poderá 
+            confirmar a sua presença e nos presentear da forma como sentir em seu coração.
           </p>
 
           <p className="mt-8 font-serif text-2xl text-[#8c6f5a]">

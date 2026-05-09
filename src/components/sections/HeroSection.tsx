@@ -43,7 +43,7 @@ export default function HeroSection() {
             </div>
 
             <div className="mt-10">
-              <Countdown targetDate="2026-06-26T16:00:00-03:00" />
+              <Countdown targetDate="2026-06-20T16:00:00-03:00" />
             </div>
 
             <div className="mt-12 flex flex-wrap justify-center gap-4">

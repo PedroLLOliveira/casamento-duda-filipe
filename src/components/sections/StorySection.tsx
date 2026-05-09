@@ -8,30 +8,36 @@ export default function StorySection() {
           <div className="flex h-full rounded-[32px] border border-[#eee7de] bg-white p-8 shadow-sm md:p-12">
             <div className="my-auto">
               <p className="text-sm uppercase tracking-[0.25em] text-[#a07f67]">
-                Nossa história
+                Mensagem dos Noivos
               </p>
 
               <h2 className="mt-4 font-serif text-3xl md:text-5xl text-[#2f2824]">
-                O amor nos trouxe até aqui
+                O amor nos encontrou
               </h2>
 
               <div className="mt-8 space-y-6 leading-8 text-[#6b615a]">
                 <p>
-                  Nossa história foi sendo construída aos poucos, em detalhes simples,
-                  conversas sinceras, risadas compartilhadas e na alegria de descobrir
-                  que juntos a vida ficava mais bonita.
+                  Deus é perfeito. Crescemos ouvindo e conhecendo essa verdade, mas a forma 
+                  como nos encontramos a colocou em evidência em nossas vidas.
                 </p>
 
                 <p>
-                  Com o tempo, o carinho virou parceria, a parceria virou amor e o
-                  amor virou a certeza de que queríamos caminhar lado a lado em todos
-                  os próximos capítulos.
+                  Nossas famílias já se conheciam há anos. Estiveram juntas em tantos momentos e 
+                  eventos, mas ainda guardavam duas pessoas da mesma idade — tão diferentes e, 
+                  ao mesmo tempo, tão parecidas — que viviam em segredo uma para a outra.
                 </p>
 
                 <p>
-                  Hoje, com o coração cheio de gratidão, celebramos esse encontro e o
-                  início de uma nova etapa. E é uma felicidade enorme poder dividir
-                  esse momento com você.
+                  Durante muito tempo, não nos conhecemos nem nos encontramos. Conforme fomos crescendo, 
+                  aprendendo, mudando e nos tornando pessoas melhores, mal sabíamos que estávamos sendo 
+                  preparados um para o outro.
+                </p>
+
+                <p>
+                  Quando o momento certo chegou e nos encontramos, à medida que nos conhecíamos, absolutamente 
+                  tudo foi fazendo sentido e se encaixando. Hoje, dois anos depois, podemos dizer juntos que Deus 
+                  é perfeito e caminha conosco. Por isso, convidamos você para presenciar a maravilha dEle em 
+                  nossas vidas através da celebração do nosso casamento.
                 </p>
               </div>
             </div>

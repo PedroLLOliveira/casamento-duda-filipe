@@ -4,9 +4,9 @@ import { useState } from "react";
 
 const links = [
   { label: "Início", href: "#topo" },
-  { label: "Evento", href: "#evento" },
-  { label: "História", href: "#historia" },
-  { label: "Galeria", href: "#galeria" },
+  { label: "Informações", href: "#evento" },
+  { label: "Mensagem", href: "#historia" },
+  // { label: "Galeria", href: "#galeria" },
   { label: "Presentes", href: "#presentes" },
   { label: "Presença", href: "#presenca" },
 ];
