@@ -31,11 +31,6 @@ export default function EventInfoSection() {
             </p>
           </div>
 
-          <p className="mt-8 leading-7 text-[#5f5650]">
-            Queremos viver esse dia com leveza, alegria e muito amor. Sua presença
-            será parte essencial dessa memória.
-          </p>
-
           <a
             href="https://www.google.com/maps/search/Rancho+Demarque/@-21.1387314,-42.4884006,1477m/data=!3m1!1e3!4m15!1m8!3m7!1s0xbccc3ee72a7635:0x91a72de1e7199818!2sEstr.+Principal+de+Macuco,+80+-+Boa+Família,+Muriaé+-+MG,+36880-001!3b1!8m2!3d-21.1400979!4d-42.4893209!16s%2Fg%2F11l_68qh9l!3m5!1s0xbccd006d16e3eb:0xbfa2bd5f3f260fb2!8m2!3d-21.1387239!4d-42.4884016!16s%2Fg%2F11wv3l1rz5!5m1!1e2?hl=pt-BR&entry=ttu&g_ep=EgoyMDI2MDQxNS4wIKXMDSoASAFQAw%3D%3D"
             target="_blank"

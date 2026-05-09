@@ -11,24 +11,22 @@ export default function CoupleMessageSection() {
       <div className="relative mx-auto max-w-4xl text-center">
         <FadeInSection>
           <p className="text-sm uppercase tracking-[0.28em] text-[#a07f67]">
-            Com amor
+            Caros amigos e familiares,
           </p>
 
           <h2 className="mt-4 font-serif text-4xl md:text-6xl text-[#2f2824]">
-            Uma mensagem do casal
+            Obrigado!
           </h2>
 
           <p className="mx-auto mt-8 max-w-3xl text-lg leading-9 text-[#6b615a]">
-            Este site foi criado com muito carinho para reunir um pedacinho da
-            nossa história e compartilhar com você os detalhes desse dia tão
-            sonhado. Mais do que qualquer presente, o que realmente torna essa
-            celebração especial é poder vivê-la ao lado de pessoas queridas.
+            Obrigado por fazer parte! Você que hoje recebe esse convite, o faz porque, de alguma forma, 
+            tem um lugar especial em nossas vidas. Seja por laços de sangue, por laços de amizade ou por laços de fé, 
+            você é importante para nós e queremos celebrar esse momento ao seu lado.
           </p>
 
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-9 text-[#6b615a]">
-            Obrigado por fazer parte da nossa caminhada, pelo carinho de sempre
-            e por estar presente, de alguma forma, neste momento tão importante
-            para nós.
+            Nesse site, você encontrará as informações que precisa para chegar ao local da cerimônia, a data e o horário, 
+            também poderá confirmar a sua presença, e nos presentear conforme sentir em seu coração.
           </p>
 
           <p className="mt-8 font-serif text-2xl text-[#8c6f5a]">

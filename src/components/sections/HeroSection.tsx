@@ -35,14 +35,11 @@ export default function HeroSection() {
             </h1>
 
             <p className="mx-auto mt-8 max-w-2xl text-base leading-8 md:text-xl">
-              Depois de tantos momentos compartilhados, chegou o dia de celebrar
-              o amor que nos trouxe até aqui e iniciar, com alegria, um novo
-              capítulo da nossa história.
+              Está chegando o momento que tanto aguardamos, de celebrar nosso amor na presença de Deus, de nossos familiares e amigos.
             </p>
 
             <div className="mt-10 space-y-2 text-sm md:text-lg">
               <p><strong>20 de junho de 2026</strong></p>
-              <p>16h • Muriaé - MG</p>
             </div>
 
             <div className="mt-10">
