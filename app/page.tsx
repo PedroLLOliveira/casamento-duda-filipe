@@ -3,7 +3,7 @@ import HeroSection from "@/components/sections/HeroSection";
 import EventInfoSection from "@/components/sections/EventInfoSection";
 import CoupleMessageSection from "@/components/sections/CoupleMessageSection";
 import StorySection from "@/components/sections/StorySection";
-import GallerySection from "@/components/sections/GallerySection";
+// import GallerySection from "@/components/sections/GallerySection";
 import GiftListSection from "@/components/sections/GiftListSection";
 import RsvpSection from "@/components/sections/RsvpSection";
 import SectionDivider from "@/components/ui/SectionDivider";
