@@ -73,9 +73,11 @@ export default function GiftPixModal({
           Este item faz parte da faixa <strong>{categoryLabel}</strong>.
         </p>
 
-        <p className="mt-3 text-2xl font-semibold text-[#8c6f5a]">
-          R$ {value.toFixed(2).replace(".", ",")}
-        </p>
+        {value > 0 && (
+          <p className="mt-3 text-2xl font-semibold text-[#8c6f5a]">
+            R$ {value.toFixed(2).replace(".", ",")}
+          </p>
+        )}
 
         <p className="mt-5 text-sm leading-7 text-[#6b615a]">
           Para presentear, basta escanear o QR Code ou abrir o link de pagamento

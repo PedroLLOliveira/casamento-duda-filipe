@@ -86,4 +86,50 @@ export const giftCategories: GiftCategoryWindow[] = [
       { id: "500-6", name: "Aparelho de jantar 30 peças Oxford cerâmica", image: "/images/presents/aparelho-jantar-30pcs-oxford.webp" },
     ],
   },
+  {
+    id: "750",
+    label: "R$ 750",
+    value: 750,
+    paymentLink: "https://mpago.la/1W28w3T",
+    items: [
+      { id: "750-1", name: "Armário de Cozinha Aéreo Itatiaia (3 ou 4 portas)", image: "/images/presents/armario-cozinha-aereo-itatiaia.webp" },
+      { id: "750-2", name: "Conjunto com 4 Cadeiras de Madeira para Jantar", image: "/images/presents/conjunto-4-cadeiras-madeira-jantar.webp" },
+      { id: "750-3", name: "Mesa de Escritório com Gaveteiro para Home Office", image: "/images/presents/mesa-escritorio-gaveteiro-home-office.webp" },
+      { id: "750-4", name: "Poltrona Decorativa em Tecido Suede", image: "/images/presents/poltrona-decorativa-suede.webp" },
+      { id: "750-5", name: "Balcão de Cozinha Itatiaia com Tampo de 120cm", image: "/images/presents/balcao-cozinha-itatiaia-tampo-120.webp" },
+    ],
+  },
+  {
+    id: "1100",
+    label: "R$ 1100",
+    value: 1100,
+    paymentLink: "https://mpago.la/2S2udxy",
+    items: [
+      { id: "1100-1", name: "Paneleiro Duplo Itatiaia com Espaço para Forno e Micro-ondas", image: "/images/presents/paneleiro-duplo-itatiaia.webp" },
+      { id: "1100-2", name: "Sofá de 2 Lugares Retrátil e Reclinável", image: "/images/presents/sofa-2-lugares-retratil-reclinavel.webp" },
+      { id: "1100-3", name: "Mesa de Jantar com Tampo de Vidro e 4 Cadeiras", image: "/images/presents/mesa-jantar-vidro-4-cadeiras.webp" },
+      { id: "1100-4", name: "Conjunto de 4 Banquetas Altas Estofadas para Bancada", image: "/images/presents/conjunto-4-banquetas-altas-estofadas.webp" },
+      { id: "1100-5", name: "Rack com Painel para TV de até 60 Polegadas", image: "/images/presents/rack-com-painel-tv-60.webp" },
+    ],
+  },
+  {
+    id: "1200",
+    label: "R$ 1200",
+    value: 1200,
+    paymentLink: "https://mpago.la/1mASPWU",
+    items: [
+      { id: "1200-1", name: "Cozinha Compacta Itatiaia (Conjunto de Módulos Básicos)", image: "/images/presents/cozinha-compacta-itatiaia.webp" },
+      { id: "1200-2", name: "Guarda-Roupa de Casal com 6 Portas e Gavetas Externas", image: "/images/presents/guarda-roupa-casal-6-portas.webp" },
+      { id: "1200-3", name: "Poltrona Reclinável com Sistema de Descanso Manual", image: "/images/presents/poltrona-reclinavel-descanso-manual.webp" },
+    ],
+  },
+  {
+    id: "1500",
+    label: "Bolsa lua de mel",
+    value: 0,
+    paymentLink: "https://link.mercadopago.com.br/dudaefilipe",
+    items: [
+      { id: "1500-1", name: "Contribuição para a nossa lua de mel", image: "/images/lua-de-mel.jpeg" },
+    ],
+  }
 ];

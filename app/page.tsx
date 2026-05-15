@@ -22,6 +22,7 @@ export default function Home() {
       {/* <GallerySection /> */}
       {/* <SectionDivider /> */}
       <GiftListSection />
+      <SectionDivider />
       <RsvpSection />
 
       <footer className="border-t border-[#e7ddd3] px-6 py-16 text-center">
